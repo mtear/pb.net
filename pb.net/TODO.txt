@@ -1,0 +1,17 @@
+﻿what character ends a transmission message
+clean up socket io portion
+Clean up and unit test heavily the encryption portion
+
+Give client a tdes key
+Encryption and authentication
+abstract User socketio
+terminate connections
+
+clean up send use json object instead
+clean up encryption and user vs sdw
+clean up file names
+
+room based server
+dll test
+import json dll and test in unity with both
+upload to github

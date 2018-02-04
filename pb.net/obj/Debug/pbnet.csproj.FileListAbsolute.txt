@@ -1,0 +1,7 @@
+D:\pgram\pbnet\pbnet\pbnet\bin\Debug\pbnet.exe.config
+D:\pgram\pbnet\pbnet\pbnet\bin\Debug\pbnet.exe
+D:\pgram\pbnet\pbnet\pbnet\bin\Debug\pbnet.pdb
+D:\pgram\pbnet\pbnet\pbnet\obj\Debug\pbnet.csproj.CoreCompileInputs.cache
+D:\pgram\pbnet\pbnet\pbnet\obj\Debug\pbnet.exe
+D:\pgram\pbnet\pbnet\pbnet\obj\Debug\pbnet.pdb
+D:\pgram\pbnet\pbnet\pbnet\obj\Debug\pbnet.csprojResolveAssemblyReference.cache

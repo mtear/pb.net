@@ -1,0 +1,6 @@
+D:\pgram\pbnet\pbnet\pbnet\bin\Release\pbnet.exe.config
+D:\pgram\pbnet\pbnet\pbnet\bin\Release\pbnet.exe
+D:\pgram\pbnet\pbnet\pbnet\bin\Release\pbnet.pdb
+D:\pgram\pbnet\pbnet\pbnet\obj\Release\pbnet.csproj.CoreCompileInputs.cache
+D:\pgram\pbnet\pbnet\pbnet\obj\Release\pbnet.exe
+D:\pgram\pbnet\pbnet\pbnet\obj\Release\pbnet.pdb
