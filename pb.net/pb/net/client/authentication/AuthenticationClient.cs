@@ -1,4 +1,5 @@
-﻿using pb.json;
+﻿using pb.encryption;
+using pb.json;
 using System;
 
 namespace pb.net.client.authentication
@@ -27,12 +28,12 @@ namespace pb.net.client.authentication
             JSONObject jsonObject = new JSONObject().Put("username", username).Put("password", password);
             if (useTDES)
             {
-                tdesKey = TDESHandler.GenerateKey();
+                tdesKey = TDES.GenerateKey();
                 jsonObject.Put("key", tdesKey);
             }
 
             if(rsaKey != null && rsaKey != ""){
-                Send(RSAHandler.Encrypt(rsaKey, jsonObject.ToString()));
+                Send(RSA.Encrypt(rsaKey, jsonObject.ToString()));
             }else{
                 Send(jsonObject.ToString());
             }

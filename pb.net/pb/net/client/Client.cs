@@ -1,4 +1,5 @@
-﻿using pb.json;
+﻿using pb.encryption;
+using pb.json;
 using pb.net.server;
 using System;
 using System.Net.Sockets;
@@ -99,12 +100,12 @@ namespace pb.net.client
 
         public void SendRSA(string json)
         {
-            Send(RSAHandler.Encrypt(rsaKey, json));
+            Send(RSA.Encrypt(rsaKey, json));
         }
 
         public void SendTDES(string json)
         {
-            Send(Convert.ToBase64String(TDESHandler.Encrypt(tdesKey, json)));
+            Send(Convert.ToBase64String(TDES.Encrypt(tdesKey, json)));
         }
 
         public void Send(string json)

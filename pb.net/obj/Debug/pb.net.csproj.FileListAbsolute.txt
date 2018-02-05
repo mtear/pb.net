@@ -25,3 +25,5 @@ D:\pgram\pb.net\pb.net\obj\Debug\pb.net.csprojResolveAssemblyReference.cache
 D:\pgram\pb.net\pb.net\obj\Debug\pb.net.csproj.CoreCompileInputs.cache
 D:\pgram\pb.net\pb.net\obj\Debug\pb.net.dll
 D:\pgram\pb.net\pb.net\obj\Debug\pb.net.pdb
+D:\pgram\pb.net\pb.net\bin\Debug\pb.encryption.dll
+D:\pgram\pb.net\pb.net\bin\Debug\pb.encryption.pdb

@@ -1,4 +1,5 @@
-﻿using pb.json;
+﻿using pb.encryption;
+using pb.json;
 using pb.net.server;
 using System;
 using System.Collections.Generic;
@@ -102,11 +103,11 @@ namespace pb.net
         {
             if(asymkey != null)
             {
-                json = RSAHandler.Decrypt(asymkey, json);
+                json = RSA.Decrypt(asymkey, json);
             }else 
             if(symkey != null)
             {
-                json = TDESHandler.Decrypt(symkey, json);
+                json = TDES.Decrypt(symkey, json);
             }
             JSONObject jo = new JSONObject(json);
             callback?.Invoke(this, jo);

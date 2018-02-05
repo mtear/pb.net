@@ -1,7 +1,7 @@
 ﻿
 namespace pb.net
 {
-    class NetSettings
+    public class NetSettings
     {
 
         public static bool VERBOSE = true;

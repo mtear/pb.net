@@ -1,4 +1,5 @@
-﻿using pb.json;
+﻿using pb.encryption;
+using pb.json;
 using pb.net.user;
 using System;
 
@@ -35,7 +36,7 @@ namespace pb.net.server.authentication
                 JSONObject response = authenticateUserCallback.Invoke(message.GetString("username"), message.GetString("password"));
                 if (useTDES)
                 {
-                    Send(socket, Convert.ToBase64String(TDESHandler.Encrypt(message.GetString("key"), response.ToString())));
+                    Send(socket, Convert.ToBase64String(TDES.Encrypt(message.GetString("key"), response.ToString())));
                 }
                 else
                 {

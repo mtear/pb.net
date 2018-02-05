@@ -36,6 +36,9 @@
     <StartupObject />
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="pb.encryption">
+      <HintPath>..\..\pb.encryption\pb.encryption\bin\Release\pb.encryption.dll</HintPath>
+    </Reference>
     <Reference Include="pb.json">
       <HintPath>..\..\pb.json\pb.json.dll</HintPath>
     </Reference>
@@ -59,12 +62,10 @@
     <Compile Include="pb\net\NetSettings.cs" />
     <Compile Include="pb\net\NetUtil.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="pb\encryption\RSAHandler.cs" />
     <Compile Include="pb\net\server\Server.cs" />
     <Compile Include="pb\net\SocketDataWorker.cs" />
     <Compile Include="pb\net\SocketInputBuffer.cs" />
     <Compile Include="pb\net\SocketInputWorker.cs" />
-    <Compile Include="pb\encryption\TDESHandler.cs" />
     <Compile Include="pb\net\User.cs" />
     <Compile Include="pb\net\WebIOSocket.cs" />
   </ItemGroup>
